@@ -5,16 +5,46 @@ body {
   background-color: AliceBlue;
 }
 h1 {
-  color: Black;
+  color: grey;
   text-align: center;
+  letter-spacing: 5px;
+  outline: 2px dashed black;
+  margin-top: 25px;
 }
 h3 {
-  color: darkgrey;
+  color: maroon;
+  border: 1px dotted black;
+  font-style: italic;
 }
 p {
-  color: darkgrey;
-  font-size: 15px;
+  color: black;
+  font-size: 20px;
+  margin: 25px;
+  text-align: left;
+}
+ul {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: right;
+  margin: 25px;
 }
 footer {
-  color: Black;
+  color: lightslategrey;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  border-top: 1px solid black;
+}
+img {
+  border: 3px dotted white;
+  width: 25%;
+}
+nav {
+  color: lightcoral;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid black
 }
