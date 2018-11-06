@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: AliceBlue;
+  background-color: white;
 }
 h1 {
   color: grey;
@@ -21,6 +21,7 @@ p {
   font-size: 20px;
   margin: 25px;
   text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 ul {
   color: black;
@@ -47,4 +48,14 @@ nav {
   font-weight: bold;
   font-size: 20px;
   border-bottom: 1px solid black
+}
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  justify-content: center;
+}
+.flexbox-container div {
+  padding: 1rem;
+  width: 2rem;
 }
