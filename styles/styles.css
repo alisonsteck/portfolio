@@ -12,7 +12,7 @@ h1 {
   margin-top: 25px;
 }
 h3 {
-  color: maroon;
+  color: black;
   border: 1px dotted black;
   font-style: italic;
 }
@@ -25,15 +25,16 @@ p {
 }
 ul {
   color: black;
-  font-size: 20px;
+  font-size: 14px;
   letter-spacing: 3px;
-  text-align: right;
+  text-align: left;
   margin: 25px;
+  text-decoration: none;
 }
 footer {
   color: lightslategrey;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   border-top: 1px solid black;
 }
@@ -59,3 +60,16 @@ nav {
   padding: 1rem;
   width: 2rem;
 }
+nav a:visited {
+  color: grey;
+}
+h3:hover {
+  background-color: purple;
+  color: white;
+  }
+  #delay:hover {
+    font-size: 25px;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 0;
+  }
